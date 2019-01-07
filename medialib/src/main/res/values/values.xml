@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="media_quality">
+        <item>流畅</item>
+        <item>清晰</item>
+        <item>高清</item>
+        <item>超清</item>
+        <item>1080P</item>
+    </string-array>
+    <color name="background_gray">#ffa5a5a5</color>
+    <color name="background_gray_light">#ffbababa</color>
+    <color name="bg_video_view">#80000000</color>
+    <color name="media_quality_selected">#ccec407a</color>
+    <color name="recover_screen_text">#f06292</color>
+    <color name="seek_background">#809e9e9e</color>
+    <color name="seek_ball">#ffffffff</color>
+    <color name="seek_progress">#cce91e63</color>
+    <color name="seek_secondary_progress">#88f48fb1</color>
+    <color name="text_content">#ffffff</color>
+    <color name="text_hint">#55ffffff</color>
+    <color name="video_skip">#e91e63</color>
+    <dimen name="aspect_btn_height">20dp</dimen>
+    <dimen name="aspect_btn_size">30dp</dimen>
+    <dimen name="control_bar_height">46dp</dimen>
+    <dimen name="danmaku_input_options_color_radio_btn_height">25.0dip</dimen>
+    <dimen name="danmaku_input_options_color_radio_btn_margin">5.0dip</dimen>
+    <dimen name="danmaku_input_options_color_radio_btn_size">42.0dip</dimen>
+    <dimen name="danmaku_input_options_color_radio_btn_width">32.0dip</dimen>
+    <dimen name="danmaku_input_options_height">48dp</dimen>
+    <dimen name="settings_btn_width">44dp</dimen>
+    <item name="aspect_fit_parent" type="id"/>
+    <item name="input_options_basic" type="id"/>
+    <item name="input_options_bottom_type" type="id"/>
+    <item name="input_options_color_blue" type="id"/>
+    <item name="input_options_color_brown" type="id"/>
+    <item name="input_options_color_current" type="id"/>
+    <item name="input_options_color_drak_blue" type="id"/>
+    <item name="input_options_color_green" type="id"/>
+    <item name="input_options_color_group" type="id"/>
+    <item name="input_options_color_light_green" type="id"/>
+    <item name="input_options_color_lite_blue" type="id"/>
+    <item name="input_options_color_more_icon" type="id"/>
+    <item name="input_options_color_orange" type="id"/>
+    <item name="input_options_color_pink" type="id"/>
+    <item name="input_options_color_purple" type="id"/>
+    <item name="input_options_color_red" type="id"/>
+    <item name="input_options_color_white" type="id"/>
+    <item name="input_options_color_yellow" type="id"/>
+    <item name="input_options_group_textsize" type="id"/>
+    <item name="input_options_group_type" type="id"/>
+    <item name="input_options_medium_textsize" type="id"/>
+    <item name="input_options_more" type="id"/>
+    <item name="input_options_rl_type" type="id"/>
+    <item name="input_options_small_textsize" type="id"/>
+    <item name="input_options_top_type" type="id"/>
+    <string name="video_record">记忆上次播放到</string>
+    <string name="video_skip">继续播放</string>
+    <style name="AnimateDialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_zoom_out</item>
+    </style>
+    <style name="AspectRatioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/aspect_btn_height</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="DanmakuInputOptionColorRadioButton">
+        <item name="android:layout_width">@dimen/danmaku_input_options_color_radio_btn_width</item>
+        <item name="android:layout_height">@dimen/danmaku_input_options_color_radio_btn_height</item>
+        <item name="android:layout_marginLeft">@dimen/danmaku_input_options_color_radio_btn_margin</item>
+        <item name="android:layout_marginRight">@dimen/danmaku_input_options_color_radio_btn_margin</item>
+        <item name="android:paddingLeft">@dimen/danmaku_input_options_color_radio_btn_margin</item>
+        <item name="android:paddingRight">@dimen/danmaku_input_options_color_radio_btn_margin</item>
+        <item name="android:button">@drawable/sel_btn_danmaku_input_options_color</item>
+    </style>
+    <style name="DanmakuInputOptionRadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="ProgressBarBattery" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">72px</item>
+        <item name="android:layout_height">43px</item>
+        <item name="android:background">@mipmap/ic_battery</item>
+        <item name="android:paddingTop">6px</item>
+        <item name="android:paddingBottom">6px</item>
+        <item name="android:paddingLeft">6px</item>
+        <item name="android:paddingRight">10px</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/layer_battery_progress</item>
+    </style>
+</resources>
